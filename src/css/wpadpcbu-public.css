@@ -1,0 +1,757 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.entry-content>.wpadpcbu-pcbuilder {
+    max-width: 100%;
+    width: 100%;
+    background: #f1f3f5;
+    padding-top: 0px;
+}
+.entry-content>.wpadpcbu-pcbuilder a {
+    text-decoration: none;
+    outline: none;
+}
+.wpadpcbu-row {
+    display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.wpadpcbu-half {
+	-ms-flex: 0 0 50%;
+	max-width: 50%;
+	flex: 0 0 50%;
+}
+.wpadpcbu-align-center {
+	display: flex;
+    align-items: center;
+}
+.wpadpcbu-justify-end{
+	display: flex;
+	justify-content: flex-end;
+}
+.pc-builder-button {
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    /* margin-bottom: 5px; */
+    padding: 5px 15px;
+    /* text-transform: uppercase; */
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td.component-product-action .pc-builder-button {
+	flex-direction: row;
+	column-gap: 5px;
+}
+
+.wpadpcbu-hide {
+	display: none !important;
+}
+
+/* Breadcrumb section CSS code */
+
+.wpadpcbu-breadcrumb {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.wpadpcbu-pcbuilder div>.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.wpadpcbu-component-search .container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.wpadpcbu-nav {
+    list-style: none;
+    margin: 0px;
+}
+.wpadpcbu-nav li {
+    float: left;
+    margin: 0px;
+    margin-right: 5px;
+}
+.wpadpcbu-nav li+li:before {
+    padding: 0 6px;
+    color: #000;
+    font: normal normal normal 14px/1 dashicons;
+    font-size: 13px;
+    content: "\f345";
+}
+.wpadpcbu-nav li a {
+    color: #000;
+}
+
+/* PC Builder Page */
+
+.wpadpcbu-actions {
+    margin-bottom: 20px;
+}
+/* .right-button .pc-builder-button {
+    margin-right: 10px;
+}
+.right-button .pc-builder-button:last-child {
+    margin-right: 0px;
+} */
+.wpadpcbu-actions .right-button {
+    display: flex;
+    column-gap: 10px;
+}
+
+.wpadpcbu-show-component {
+	display: none;
+}
+.top-total-amount {
+    border: 1px solid #000000;
+    padding: 5px 5px;
+    min-width: 120px;
+    border-radius: 7px;
+    text-align: center;
+    color: #111;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component-name-warp span {
+    display: block;
+}
+.component-name-warp span.required-span {
+    font-size: 8px;
+    background: black;
+    padding: 2px 5px;
+    max-width: 50px;
+    text-align: center;
+    color: #fff;
+}
+span.required-span.missing {
+    background: red;
+}
+.wpadpcbu-breadcrumb .page-heading {
+    /* text-align: right; */
+    color: #000;
+	margin: 0px;
+}
+.wpadpcbu-component-table .table th, .wpadpcbu-component-table .table td {
+    vertical-align: middle;
+    border: none;
+    padding: 0.75rem;
+}
+.wpadpcbu-component-table thead th:first-child {
+	width: 27%;
+}
+.wpadpcbu-component-table thead th:nth-child(2) {
+	width: 35%;
+}
+.wpadpcbu-component-table thead th:nth-child(4) {
+    text-align: center;
+}
+tr.fixed-height {
+    height: 50px;
+}
+tr.total-amount {
+    border: none !important;
+    background-color: #000;
+    color: #fff;
+}
+tr.total-amount td {
+    border: none !important;
+}
+th.component-name .component-name-div {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+th.component-name img {
+    /* margin-right: 10px; */
+    height: 50px;
+    width: 50px;
+}
+.has-component th.component-name img {
+    width: 75px;
+    height: 75px;
+}
+.wpadpcbu-component-table table.table-striped {
+    border: none;
+}
+.wpadpcbu-component-table table thead tr {
+    background: #000000;
+    color: #fff;
+    height: 50px;
+}
+td.component-product-action .component-actions {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+/* PC Builder Search Page */
+
+.wpadpcbu-component-search {
+    margin: 25px 0px;
+}
+.pb-choose-product .button-link {
+    margin-bottom: 5px;
+}
+.wpadpcbu-content-panel {
+    /* border: 1px solid #ddd; */
+}
+
+/* Search Page Top Bar CSS */
+
+.wpadpcbu-top-bar {
+    border: 1px solid #ddd;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    /* padding-bottom: 5px; */
+}
+
+.wpadpcbu-top-bar .left-search {
+    display: flex;
+    column-gap: 10px;
+}
+.left-search .back-button-icon {
+    border: 1px solid #ddd;
+    padding: 6px 15px;
+    /* float: left; */
+    cursor: pointer;
+}
+.back-button-icon a:hover, .back-button-icon a {
+    color: #000;
+}
+.left-search .input-group-search {
+    /* float: left; */
+    /* margin-left: 15px; */
+    width: 100%;
+    /* width: calc(100% - 80px); */
+}
+.input-group-search input#input-search {
+    border: 1px solid #ddd;
+    background: none;
+    width: 100%;
+    box-shadow: none;
+    color: #000;
+    border-radius: 0px;
+}
+.right-shortby label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.right-shortby label span {
+    float: left;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.right-shortby label.control-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-shortby label select {
+    width: calc(100% - 70px);
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    padding: 10px 5px;
+}
+
+/* Component products list section css */
+
+.component-product {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    border: 1px solid #ddd;
+}
+.component-product .product-img {
+    flex-basis: 140px;
+    min-width: 140px;
+    text-align: left;
+}
+.product-img img.wp-post-image {
+    margin-bottom: 0px;
+}
+.component-product .product-info {
+    padding-left: 30px;
+    width: 100%;
+}
+.product-info-top {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 5px;
+    font-size: 20px;
+}
+.product-info-top .price {
+    float: left;
+    font-weight: 700;
+}
+.product-info-top .wpadpcbu-actions {
+    float: right;
+    margin-bottom: 0px;
+}
+.wpadpcbu-actions a.choose {
+    position: relative;
+}
+.product-info-top .wpadpcbu-actions a.choose i {
+    margin-top: 8px;
+}
+.product-content-blcok {
+    margin-top: 5px;
+}
+.product-info .product-name {
+    margin: 0px;
+}
+.product-info .product-name a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+.product-features ul {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    width: calc(50% - 20px);
+    float: left;
+}
+
+/* Pagination CSS */
+
+.wpadpcbu-pagination {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+.wpadpcbu-pagination .page-info {
+    color: #000;
+}
+.page-info p {
+    margin-bottom: 0px;
+    font-size: 0.95em;
+    font-weight: 500;
+}
+.page-info p span {
+    /* border: 1px solid #ddd; */
+    /* width: 30px; */
+    /* height: 30px; */
+    display: inline-block;
+    /* line-height: 26px; */
+    /* border-radius: 50%; */
+    /* margin-right: 10px; */
+    /* padding: 0px 5px; */
+    padding-right: 10px;
+}
+
+/* Filter Sidebar Css */
+
+.filter-show-hide button {
+    display: none;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.wpadpcbu-filter-panel {
+    /* border: 1px solid #ddd; */
+}
+.wpadpcbu-filter-panel .filter-panel {
+    background: #fff;
+    overflow-y: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.filter-panel .filter-group {
+    position: relative;
+    user-select: none;
+    clear: both;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.filter-group div {
+    padding: 0px 15px;
+}
+.filter-group .label {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-group.show .label {
+    border-bottom: 1px solid #ddd;
+}
+/* .filter-group .toggler {
+    position: relative;
+    top: 15px;
+    float: right;
+} */
+.filter-group .toggler:before {
+    content: "\f067";
+}
+.filter-group.show .toggler:before {
+    content: "\f068";
+}
+.filter-group .items {
+    display: none;
+}
+.filter-group.show .items {
+    display: block;
+    max-height: 300px;
+    overflow: scroll;
+}
+.filter-group .items label.filter {
+    display: block;
+    padding: 5px 5px 5px 10px;
+}
+#filter-data {
+    outline: none;
+}
+
+/* Price Range */
+
+.price-filter {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+.extra-controls {
+    display: block;
+    width: 100%;
+    min-height: 35px;
+}
+.extra-controls input {
+    float: left;
+    width: 43%;
+    outline: 0;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    font-weight: 500;
+}
+.extra-controls input:last-child {
+    float: right;
+}
+.range-slider {
+    display: block;
+    margin-bottom: 10px;
+}
+.range-slider span.irs {
+    /* margin-top: -10px; */
+}
+span.irs-max, span.irs-min {
+    display: none;
+}
+span.irs-from, span.irs-to {
+    display: none;
+}
+.price-filter .label {
+    font-weight: 700;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+span.irs-single {
+    display: none !important;
+}
+
+/* Customer Dashboard Css */
+.woocommerce-saved-configurations-table__header-savepc-actions {
+    text-align: center;
+}
+
+td#wpadpcbu-savepc-actions {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+.component-item-row:nth-child(even) {
+    background: #e8e8e8;
+}
+/* Storefront theme style issue fix */
+
+.theme-storefront .entry-content .wpadpcbu-pcbuilder.alignwide {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 0px !important;
+    background: none;
+}
+
+/* Responsive Css Code */
+
+@media screen and (min-width: 813px) {
+    div#wpadpcbu-search-filter {
+        display: block !important;
+    }
+    .filter-show-hide button {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 812px) {
+    /* Search page filter */
+    .filter-show-hide #filter-hide {
+        display: inline-block;
+    }
+    .wpadpcbu-filter-div {
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .wpadpcbu-content-div {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* Search page */
+    .page-info p {
+        font-size: 0.75em;
+    }
+    .wpadpcbu-pcbuilder div>.container {
+        max-width: 100%;
+    }
+    .component-product .product-info {
+        padding-left: 15px;
+    }
+    .product-info .product-name a {
+        font-size: .85rem;
+    }
+    .product-features ul {
+        font-size: 0.72rem;
+    }
+    /* Search page filter */
+    .wpadpcbu-filter-panel {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .wpadpcbu-top-bar .left-search {
+        margin-bottom: 10px;
+    }
+    .right-shortby label span {
+        display: none;
+    }
+    .right-shortby label select {
+        width: 100%;
+    }
+    /* Builder Page Css */
+    .wpadpcbu-component-table thead tr th:first-child {
+        width: 30%;
+    }
+    th.component-name img {
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+    td.component-product-action a {
+        margin-bottom: 5px;
+    }
+    td.component-product-action a {
+        margin-bottom: 5px;
+    }
+    td.component-product-action a:last-child {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .wpadpcbu-half.wpadpcbu-mobile-full {
+        width: 100%;
+    }
+    /* Search page */
+    .wpadpcbu-nav {
+        display: table;
+        margin: 0 auto;
+    }
+    .wpadpcbu-breadcrumb .page-heading {
+        text-align: center;
+    }
+    .top-total-amount {
+        margin: auto;
+        float: unset;
+        max-width: 200px;
+        margin-top: 10px;
+    }
+    /* Builder Page */
+    .wpadpcbu-component-table table tbody {
+        width: 100%;
+        display: block;
+    }
+    .right-button {
+        text-align: center;
+    }
+    .wpadpcbu-component-table table thead {
+        display: none;
+    }
+    tr.fixed-height {
+        display: inline-table;
+        width: 100%;
+    }
+    tr.fixed-height .pc-builder-button {
+        float: right;
+    }
+    .component-item-row.has-component {
+        display: block;
+        min-height: 225px;
+        max-width: 100%;
+        position: relative;
+    }
+    .component-item-row.has-component th.component-name {
+        display: inline-block;
+        width: 100%;
+    }
+    .component-name-warp {
+        display: inline-flex;
+        align-items: center;
+        align-self: auto;
+    }
+    tr.fixed-height td.component-product-price {
+        padding: 0px;
+    }
+    tr.fixed-height td.component-product-name {
+        padding: 0px;
+    }
+    .component-name-warp span {
+        font-size: 15px;
+    }
+    .component-name-warp span.required-span {
+        margin-left: 3px;
+        padding: 2px 2px;
+    }
+    th.component-name img {
+        margin-right: 5px;
+        height: 25px;
+        width: 25px;
+    }
+    .component-item-row.has-component td.component-product-image {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .component-item-row.has-component .component-product-image img {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .component-item-row.has-component td.component-product-action {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-top: 0px;
+    }
+    td.component-product-action a {
+        margin-bottom: 0px;
+    }
+    .component-item-row.has-component th.component-name {
+        min-width: 200px;
+    }
+    .component-item-row.has-component td.component-product-name {
+        font-weight: 600;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .component-item-row.has-component td.component-product-price {
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+    tr.total-amount {
+        display: flex;
+        width: 100%;
+    }
+    tr.total-amount td {
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (max-width: 441px) {
+    tr.fixed-height {
+        display: inline-table;
+        width: 100%;
+    }
+    .component-name-warp span {
+        font-size: 12px;
+    }
+    /* Search page */
+    .component-product {
+        display: inline-block;
+        width: 100%;
+    }
+    .component-product .product-info {
+        display: inline-block;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .wpadpcbu-pagination {
+        min-height: 70px;
+    }
+    .wpadpcbu-pagination.no-pagination {
+        min-height: 32px;
+    }
+    .wpadpcbu-pagination .page-info {
+        position: absolute;
+        /*display: inline-block;*/
+        width: 100%;
+        /*text-align: left !important;*/
+    }
+    .wpadpcbu-pagination .col-sm-2 {
+        position: absolute;
+        margin-top: 8%;
+        display: inline-table;
+    }
+    .wpadpcbu-pagination .col-sm-2.text-right {
+        right: 10px;
+    }
+    /* Builder Page */
+}
+@media screen and (max-width: 375px) {
+    /* Search page */
+    .wpadpcbu-breadcrumb .page-heading {
+        font-size: 0.9rem;
+    }
+    .wpadpcbu-pcbuilder .wpadpcbu-nav a {
+        font-size: 0.9rem;
+    }
+    .page-info p span:last-child {
+        padding-right: 20px;
+    }
+    .product-features ul {
+        width: 100%;
+    }
+    .page-info p {
+        font-size: 0.6rem;
+    }
+    .wpadpcbu-pagination .col-sm-2 {
+        position: absolute;
+        margin-top: 10%;
+        display: inline-table;
+    }
+}
+@media screen and (max-width: 320px) {
+    /* Search page */
+    a.pagination-button {
+        font-size: 0.9rem;
+    }
+}
